@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -13,5 +14,13 @@ int main() {
 }
 
 char character(char start, int offset) {
+
+	
+	cout << "Enter a letter: ";
+	cin >> start;
+
+	cout << "Enter a number greater than 0: ";
+	cin >> offset;
+
 
 }
