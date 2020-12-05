@@ -8,7 +8,7 @@ using namespace std;
 char character(char, int);
 
 int main() {
-	char start = '?';
+	char start = 'a';
 	int offset = 1;
 	char endLetter = 0;
 
