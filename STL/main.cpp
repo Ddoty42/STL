@@ -1,7 +1,13 @@
+//John Doty
+//CIS1202
+//STL
+
+
 #include <iostream>
 #include <algorithm>
 #include <cctype>
 #include <string>
+
 
 using namespace std;
 
