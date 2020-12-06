@@ -24,6 +24,7 @@ int main() {
 	catch (string invalidCharacterException) {
 		cout << invalidCharacterException;
 	}
+	
 	catch (const char invalidRangeException) {
 		cout << invalidRangeException;
 	}
@@ -43,7 +44,8 @@ char character(char start, int offset) {
 		throw invalidCharacterException;
 	}
 	
-	if (!isalpha(newChar)) {
+	
+	if (!isalpha(newChar) || offset > 31) {
 		string invalidRangeException = "ERROR: Out of Range!\n";
 		throw invalidRangeException;
 	}
